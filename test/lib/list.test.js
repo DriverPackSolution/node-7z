@@ -45,7 +45,7 @@ describe('Method: `Zip.list`', function () {
       u: {
         run: function () {
           return require('when').promise(function (fulfill, reject, progress) {
-            require('fs').readFile('test/list.log', function (err, data) {
+            require('fs').readFile('test/list.txt', function (err, data) {
               var len = 30;
               for (var i = 0; i < data.length; i += len) {
                 // emit data in very small chunks
