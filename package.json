@@ -1,5 +1,5 @@
 {
-  "name": "node-7z",
+  "name": "@drp/7z",
   "version": "0.4.3",
   "description": "A Node.js wrapper for 7-Zip",
   "main": "lib/index.js",
